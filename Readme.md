@@ -2,6 +2,7 @@
 
 * Студент: [olga garder](https://up.htmlacademy.ru/htmlcss/25/user/1050505).
 * Наставник: `Олег Зубов`.
+* Наставник:[oleg zubov](https://htmlacademy.ru/profile/id42701).
 
 ---
 
