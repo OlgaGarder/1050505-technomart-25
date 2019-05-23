@@ -72,8 +72,29 @@
            
              <img src="img/map.jpg" alt="местоположение на карте г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"  width="300" height="160">
             
-              <a  href="#">Заблудились? напишите нам!</a>
+              <a  href="#">Заблудились? напишите нам!</a>   
 		 </section>
+
+		<section class="request">
+		  <form action="#" method="post">
+          <p class="request-item">
+		    <label for="name">Ваше имя:</label>
+             <input type="text" name="name" id="request-name" placeholder="Имя Фамилия">
+          </p>
+          <p class="request-item">
+          	<label for="email">Ваш e-mail:</label>
+             <input type="email" name="email" id="email" placeholder="email@example.com">
+           </p>
+           <p class="request-item">
+           	   <label for="textletter">Текст Письма</label>
+               <input type="text" name="textletter" id="textletter" placeholder="В свободной форме">
+               
+           </p>
+            <textarea name="textletter" id="textletter" class="letter-text" cols="3" rows="1">В свободной форме</textarea>
+            <button type="submit" class="button">Отправить</button>
+            </form>
+          <button type="button" class="modal-close">Закрыть запрос</button>
+        </section>
 		</main>
 		
 		<footer class="main-footer">
